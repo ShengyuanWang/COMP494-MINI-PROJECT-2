@@ -10,7 +10,7 @@ class MainWindow:
     def __init__(self, master):
         self.account = 0
         self.master = master
-        self.master.title("I hate these studies")
+        self.master.title("Mini-Project 2 - Voronoi")
         self.tab=[]
 
         self.frmMain = tkinter.Frame(self.master, relief=tkinter.RAISED, borderwidth=1)
