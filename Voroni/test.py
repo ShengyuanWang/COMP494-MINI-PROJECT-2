@@ -35,10 +35,6 @@ class MainWindow:
 
 
     def onClickCalculate(self):
-        # jeden blok kodu nalezy odkreskowac
-
-        #dodawanie punktów reczenie
-
         if not self.LOCK_FLAG:
             self.LOCK_FLAG = True
 
